@@ -1,0 +1,168 @@
+/* * {
+    border: solid red 1px;
+} */
+
+body {
+    background-color: rgb(190, 219, 190);
+    color: rgb(14, 68, 14);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.about-text {
+    margin-top:80px;
+    margin-left: 300px;
+}
+
+
+.about-head {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+.about-text-small {
+    width: 350px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+
+#about-link {
+    text-decoration: none;
+    color: rgb(197, 140, 55);
+    font-size: 18px;
+}
+
+
+#about-link:hover {
+    font-weight: bolder;
+}
+
+
+.bottom-video {
+    pointer-events: none;
+}
+
+
+.video-bottom {
+    padding-left: 150px;
+    margin-top: 75px;
+    display: flex;
+}
+
+.home-link {
+    text-decoration: none;
+    color:rgb(197, 140, 55);
+    font-size: 30px;
+}
+
+.home-link:hover {
+    color:rgb(250, 248, 154);
+}
+
+.home {
+    text-align: end;
+    margin-right: 100px;
+}
+
+.bottom-head {
+    font-size: 30px;
+    padding-left: 500px;
+    margin-bottom: 25px;
+}
+
+.bottom-texts {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.bottom-left {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.circle-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.bottom-top-left {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.circle-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.circle-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+.circle-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.bottom-number {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.bottom-number-info {
+    text-align: center;
+    width: 70%;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.bottom-right {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-bottom-left {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-bottom-right {
+    padding-top: 25px;
+}

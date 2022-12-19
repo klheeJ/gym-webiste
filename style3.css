@@ -1,0 +1,152 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.right {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(251, 248, 235, 0.126);
+    position: relative;
+}
+
+.left {
+    background-color: rgb(224, 220, 199);
+    display: flex;
+    width: 50%;
+    height: 100vh;
+}
+
+.left-text {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(137, 43, 226, 0.03);
+    background: linear-gradient(to bottom left, rgba(70, 16, 120, 0.507), rgba(137, 43, 226, 0.03))
+    
+}
+
+.text-box {
+    border: solid rgba(255, 255, 255, 0.185);
+    padding-left: 70px;
+    padding-right: 30px;
+    height: 600px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgba(96, 123, 211, 0.162);
+}
+
+.big-text {
+    color: white;
+    font-size: 50px;
+    width: 60%;
+}
+
+#beginning {
+    color: black;
+}
+
+.small-text {
+    color: white;
+    margin-top: 30px;
+    width: 60%;
+    font-size: 19px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 500px;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.login-text {
+    margin-bottom: 10px;
+}
+
+.login-in-head {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.login-sub {
+    font-size: 20px;
+    color:rgb(118, 109, 109);
+}
+
+#sign-in-text {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#sign-in {
+    width: 80%;
+}
+
+.login-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#login-button {
+    text-decoration: none;
+    text-align: center;
+    padding-top: 7px;
+    margin-top: 40px;
+    font-size: 20px;
+    border: solid rgba(251, 248, 235, 0.126);
+    background-color: blue;
+    background: linear-gradient(to right, rgba(88, 143, 224, 0.543), rgba(60, 60, 211, 0.438));
+    border-radius: 8px;
+    width: 80%;
+    height: 50px;
+    color: white;
+    font-size: bolder;
+}
+
+.login-links-right {
+    margin-right: 25px;
+}
+
+#forgot-password {
+    text-decoration: none;
+    color: rgb(93, 26, 215);
+}
+
+.home-button {
+    position: absolute;
+    top: 15px;
+    right: 60px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#home {
+    text-decoration: none;
+    color: rgb(110, 65, 182)
+}
+
+#home:hover {
+    color:rgb(155, 104, 202);
+}
